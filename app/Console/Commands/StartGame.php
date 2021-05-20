@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Models\Deck;
 use Illuminate\Console\Command;
 
 class StartGame extends Command
@@ -11,15 +12,14 @@ class StartGame extends Command
      *
      * @var string
      */
-    protected $signature = 'command:name';
+    protected $signature = 'start:game';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
-
+    protected $description = 'It is a test written for senior php developer quiz.';
     /**
      * Create a new command instance.
      *
